@@ -1,0 +1,55 @@
+.barra2{
+    width: 100%;
+    height: 45rem;
+    background-color: var(--co3);
+
+    color: var(--co2);
+}
+.SHOWING{
+    width: 100%;
+    height: 10rem;
+    padding-top: 8rem;
+
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(162, 113, 49, 0);
+}
+.testimonials{
+    width: 100%;
+    height: 10rem;
+
+    text-align: center;
+    padding: 1rem;
+    font-size: 5.2rem;
+    font-family: didot;    
+    background-color: rgba(0, 255, 255, 0);
+}
+.texto3{
+    margin-top: 1rem;
+    margin-left: 18%;
+    width: 67%;
+
+    text-align: center;  
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.barra2 img{
+    width: 13rem;
+    margin-top: 2rem;
+    margin-left: 47%;
+}
+
+
+@media only screen and (max-width: 375px){
+    .barra2{
+        height: 83rem;
+    }
+    .texto3{
+        width: 75%;
+        margin-top: 6.5rem;
+        margin-left: 4rem;
+    }
+    .barra2 img{
+        margin-left: 10rem;
+    }
+}

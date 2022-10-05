@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+    color: var(--co3);
+    background-color: var(--co2);
+}
+:root{
+    --co1: #C2BBB6;
+    --co2: #EBE9E2;
+    --co3: #333333;
+    --co4: #DCD5CF;
+    --co5: #F3F1EC;
+}

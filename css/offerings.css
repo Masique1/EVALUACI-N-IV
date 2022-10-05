@@ -1,0 +1,68 @@
+.offerings{
+    width: 100%;
+    height: 60rem;
+    background-color: var(--co2);
+}
+.the_offerings{
+    width: 100%;
+    height: 5.3rem;
+    margin-top: 8rem;
+
+    color: var(--co3);
+    font-family: didot;
+    font-size: 5.2rem;
+    text-align: center;
+}
+.caja{
+    width: 100%;
+    height: 40rem;
+    margin-top: 4rem;
+
+    background-color: rgba(250, 235, 215, 0);
+    display: flex;
+    flex-direction: row;
+}
+.secciones{
+    width: 28rem;
+    height: 40rem;
+    margin-left: 11rem;
+    background-color: rgba(0, 255, 255, 0);
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+.secciones img{
+    width: 28rem;
+    height: 37rem;
+
+    border-width: 1px;
+    border-color: var(--co3);
+    border-style: solid;
+}
+
+@media only screen and (max-width: 375px){
+    .offerings{
+        width: 100%;
+        height: 120rem;
+    }
+    .caja{
+        flex-direction: column;
+        height: 110rem;
+        width: 100%;
+    }
+    .secciones{
+        width: 27rem;
+        height: 35rem;
+        margin-left: 3.3rem;
+        margin-top: 2rem;
+    }
+    .secciones img{
+        width: 27rem;
+        height: 32rem;
+    }
+    .the_offerings{
+        margin-top: 5rem;
+        width: 31.5rem;
+        font-size: 4rem;
+    }
+}

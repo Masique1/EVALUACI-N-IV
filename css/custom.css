@@ -1,0 +1,107 @@
+#custom{
+    width: 100%;
+    height: 60rem;
+    background-color: rgb(0, 0, 0);
+    margin-top: 12.5rem;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.left{
+    width: 50%;
+    height: 60rem;
+    background-color: var(--co2);
+    
+    border-width: 1px;
+    border-color: var(--co3);
+    border-style: solid;
+
+}
+.right{
+    width: 50%;
+    height: 60rem;
+}
+.right img{
+    width: 100%;
+    height: 60rem;
+
+    border-width: 1px;
+    border-color: var(--co3);
+    border-style: solid;
+
+}
+.CUSTOM_DESIGN{
+    width: 22rem;
+    height: 2rem;
+    margin-top: 10rem;
+    margin-left: 9.5rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.designing{
+    width: 40rem;
+    height: 25rem;
+    margin-left: 9.5rem;
+    text-align: left;  
+    font-size: 5.2rem;
+    font-family: didot;
+}
+.boton{
+    width: 13rem;
+    height: 4rem;
+    margin-left: 9.5rem;
+    margin-top: 3.5rem;
+    padding: 1.2rem;
+
+    background-color: var(--co3);
+}
+.botont{
+    color: var(--co2);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 375px){
+    #custom{
+    flex-direction: column;
+    height: 36.7rem;
+    width: 100%;
+    }
+    .left{
+        height: 35rem;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+        height: 33rem;
+    }
+    .designing{
+        width: 27rem;
+    }
+    .boton{
+        width: 8rem;
+        height: 2.5rem;
+        padding: 0.6rem;
+        margin-top: 2rem;
+        margin-bottom: 3.5rem;
+        margin-left: 2rem;
+    }
+    .botont{
+        font-size: 1rem;
+    }
+    .CUSTOM_DESIGN{
+        width: 50%;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    .designing{
+        width: 80%;
+        height: 12rem;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,108 @@
+.BEHIND_THE_BRAND{
+    width: 100%;
+    height: 60rem;
+
+    display: flex;
+    flex-direction: row;
+}
+.right2{
+    width: 45%;
+    height: 60rem;
+}
+.right2 img{
+    width: 100%;
+    height: 60rem;
+
+    border-width: 1px;
+    border-color: var(--co3);
+    border-style: solid;
+}
+.left2{
+    width: 55%;
+    height: 60rem;
+    background-color: var(--co4);
+
+    border-width: 1px;
+    border-color: var(--co3);
+    border-style: solid;
+}
+.behind{
+    width: 40%;
+    height: 2rem;
+    margin-top: 12rem;
+    margin-left: 9.5rem;
+    text-align: left;
+    font-size: 1.5rem;}
+.sub{
+    width: 80%;
+    height: 15rem;
+
+    margin-left: 9.5rem;
+    text-align: left;  
+    font-size: 5.2rem;
+    font-family: didot;
+}
+.text{
+    width: 65%;
+    height: 10rem;
+    margin-top: 1rem;
+
+    margin-left: 9.5rem;
+    text-align: left;  
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boton2{
+    width: 11.5rem;
+    height: 4rem;
+    margin-left: 9.5rem;
+    margin-top: 5rem;
+    padding: 1.2rem;
+
+    background-color: var(--co3);
+}
+
+@media only screen and (max-width: 375px){
+    .BEHIND_THE_BRAND{
+        width: 100%;
+        height: 97rem;
+        flex-direction: column;
+        margin-top: 6rem;
+        background-color: black;
+    }
+    .right2{
+        width: 100%;
+        height: 45rem;
+    }
+    .right2 img{
+        height: 45rem;
+    }
+    .left2{
+        width: 100%;
+        height: 52rem;
+    }
+    .behind{
+        width: 50%;
+        margin-top: 6rem;
+        margin-left: 3rem;
+    }
+    .sub{
+        width: 78%;
+        height: 18rem;
+        margin-left: 3rem;
+        font-size: 3.5rem;
+    }
+    .text{
+        width: 78%;
+        height: 14.5rem;
+        margin-left: 3rem;
+        font-size: 1.3rem;
+    }
+    .boton2{
+        width: 8rem;
+        height: 2.5rem;
+        padding: 0.7rem;
+        margin-top: 2.5rem;
+        margin-left: 3rem;
+    }
+}
